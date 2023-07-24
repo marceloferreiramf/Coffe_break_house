@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  width: 100vw;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(imagens/breakcoffe.jpg);
+}
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 30px;
+}
+h1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  color: #692d18;
+}
+.textBtn h2 {
+  padding-top: 150px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+main {
+  margin-top: -150px;
+}
+.logo-header {
+  width: 80vw;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  border-radius: 32px;
+  background-color: #fff;
+  /* padding: 80px; */
+}
+.roundedLogo {
+  top: 69px;
+  left: 746px;
+  position: absolute;
+  background-color: rgb(10, 4, 4);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #692d18;
+}
+#logoText {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.coffee-image {
+  margin-top: 6%;
+}
+.CardImg {
+  display: flex;
+  width: 100px;
+  height: 90px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid red;
+}
+.maincontent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
