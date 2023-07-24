@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 }
-.bg {
-  width: 100vw;
+
+.background-img {
+  width: 100%;
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,11 +15,97 @@ header {
   justify-content: center;
   text-align: center;
   padding: 10px 30px;
+  margin-top: -14%;
+}
+.logo-header {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  border-radius: 32px;
+  background-color: #fff;
+  /* padding: 80px; */  
+}
+.roundedLogo {
+  align-self: center;
+  margin: auto;
+  margin-top: -22%;
+  position: absolute;
+  background-color: rgb(10, 4, 4);
+  width: 13%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #692d18;
+}
+main {
+  text-align: center;
+
+}
+.maingridContainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  padding: 5px;
+  
+
+}
+.select-menu{
+
+}
+.select-menu-horizontal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 90%;
+  gap: 10px;
+  
+}
+.select-menu-vertical{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9%;
+  margin-right: -5%;
+  width:90%;
+  gap: 10px;
+
+
+}
+.drinkCard{
+  border:1px solid gray;
+  border-radius: 5px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: space-evenly;
+}
+.drinkCard-vertical{
+  border:1px solid gray;
+  border-radius: 5px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.cardTexts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-title{
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#drinkMenu{
 }
 h1 {
-  display: flex;
-  position: relative;
-  justify-content: center;
   text-align: center;
   color: #692d18;
 }
@@ -33,33 +120,9 @@ a {
   justify-content: center;
   text-align: center;
 }
-main {
-  margin-top: -150px;
-}
-.logo-header {
-  width: 80vw;
-  height: 300px;
-  margin: auto;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
-  border-radius: 32px;
-  background-color: #fff;
-  /* padding: 80px; */
-}
-.roundedLogo {
-  top: 69px;
-  left: 746px;
-  position: absolute;
-  background-color: rgb(10, 4, 4);
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  border-radius: 50%;
-  border: 5px solid #692d18;
-}
 #logoText {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 .coffee-image {
   margin-top: 6%;
@@ -72,7 +135,6 @@ main {
   border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
-  border: 1px solid red;
 }
 .maincontent {
   display: flex;
